@@ -1,7 +1,7 @@
 embed
 =====
 
-SnapComplete service integration
+SnapComplete service integration.
 
 ## Tag data attribute to your input field
 * data-snapcomplete-cc: credit card number field
