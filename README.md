@@ -1,8 +1,7 @@
-embed
-=====
 SnapComplete service integration.
+=====
 
-## Tag data attribute to your input field
+## Add data attributes to your input fields.
 * data-snapcomplete-cc: credit card number field
   ```
     <input name="cc-number" type="text" data-snapcomplete-cc>
@@ -24,10 +23,17 @@ SnapComplete service integration.
     <input name="zipcode" type="text" data-snapcomplete-zip>
   ```
 
-## Add the follow markup to your HTML
+## Insert the following script tag into your page.
 ```
   <script type='text/javascript' src='//www.snapcomplete.com/embed.js'></script>
 ```
 
 ## Result
-![Alt text](http://snapcomplete.s3.amazonaws.com/documentup/CC-input.png)
+* A SnapComplete icon will be added to credit card number field.
+  Clicking on the icon will start the process.
+  ![Camera Icon](http://snapcomplete.s3.amazonaws.com/documentup/CC-input.png)
+* HTML5 geolocation will be used if the address, city, state or zipcode
+  fields are detected. This will request the user for geolocation permission.
+* Once the processing is completed, all fields mentioned above will be
+  populated.
+
