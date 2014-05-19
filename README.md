@@ -6,11 +6,11 @@ SnapComplete service integration.
 ## Tag data attribute to your input field
 * data-snapcomplete-cc: credit card number field
   ```
-    <input name="cc-number" data-snapcomplete-cc>
+    <input name="cc-number" type="text" data-snapcomplete-cc>
   ```
 * data-snapcomplete-address: street name field
   ```
-    <input name="street" data-snapcomplete-address>
+    <input name="street" type="text" data-snapcomplete-address>
   ```
 * data-snapcomplete-city: city field
   ```
