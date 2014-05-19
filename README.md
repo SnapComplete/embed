@@ -1,6 +1,5 @@
 embed
 =====
-
 SnapComplete service integration.
 
 ## Tag data attribute to your input field
@@ -27,5 +26,8 @@ SnapComplete service integration.
 
 ## Add the follow markup to your HTML
 ```
-  <script type='text/javascript' src='//www.snapcomplete.com/js/plugin/embed.js'></script>
+  <script type='text/javascript' src='//www.snapcomplete.com/embed.js'></script>
 ```
+
+## Result
+![Alt text](http://snapcomplete.s3.amazonaws.com/documentup/CC-input.png)
