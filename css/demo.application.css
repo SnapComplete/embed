@@ -1,0 +1,28 @@
+.header {
+  padding-left: 20px;
+}
+
+.product {
+  border-top: 1px solid #ccc;
+}
+
+.cart {
+  position: fixed;
+  padding: 5px;
+  background-color: #ccc;
+  border-radius: 5px 5px 0 0;
+  bottom: -500px;
+}
+
+.cart-items {
+  font-size: 12px;
+}
+
+#checkout {
+  background: white;
+  display: none;
+  top: 58px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}

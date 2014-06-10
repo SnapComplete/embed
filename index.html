@@ -1,1 +1,107 @@
-hello world !!
+<html>
+  <head>
+    <title>SnapComplete demo</title>
+    <link href="/css/foundation.css?v=1402443344169" rel="stylesheet">
+    <link href="/css/demo.application.css?v=1402443344169" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script><script src="/js/demo.application.js?v=1402443344169" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+  </head>
+  <body>
+    <div class="row header">
+      <h1>NOCOVA</h1>
+    </div>
+    <div class="row product">
+      <div class="large-4 medium-4 small-4 columns product-image"><img src="http://www.staples-3p.com/s7/is/image/Staples/s0427839_sc7?$splssku$"></div>
+      <div class="large-8 medium-8 small-8 columns product-info">
+        <h4>Staples® Copy Paper, 8 1/2" x 11", Case</h4>
+        <a class="button tiny alert round product-add">Add to cart</a>
+      </div>
+    </div>
+    <div class="row product">
+      <div class="large-4 medium-4 small-4 columns product-image"><img src="http://www.staples-3p.com/s7/is/image/Staples/s0437160_sc7?$splssku$"></div>
+      <div class="large-8 medium-8 small-8 columns product-info">
+        <h4>HP 950XL Black Ink Cartridge (CN045AN), High Yield</h4>
+        <a class="button tiny alert round product-add">Add to cart</a>
+      </div>
+    </div>
+    <div class="row product">
+      <div class="large-4 medium-4 small-4 columns product-image"><img src="http://www.staples-3p.com/s7/is/image/Staples/s0387201_sc7?$splssku$"></div>
+      <div class="large-8 medium-8 small-8 columns product-info">
+        <h4>Nestle® Pure Life® Bottled Purified Water</h4>
+        <a class="button tiny alert round product-add">Add to cart</a>
+      </div>
+    </div>
+    <div class="row product">
+      <div class="large-4 medium-4 small-4 columns product-image"><img src="http://www.staples-3p.com/s7/is/image/Staples/s0327604_sc7?$splssku$"></div>
+      <div class="large-8 medium-8 small-8 columns product-info">
+        <h4>Logitech MK320 Cordless Desktop</h4>
+        <a class="button tiny alert round product-add">Add to cart</a>
+      </div>
+    </div>
+    <div class="row cart close">
+      <ul class="large-12 medium-12 small-12 columns cart-items"></ul>
+      <a class="button large-12 medium-12 small-12 columns proceed">Proceed to Check Out</a>
+    </div>
+    <div id="checkout" class="small-12 columns">
+      <section class="billing">
+        <h2>Billing Address</h2>
+        <p>Please enter your billing information as shown on your credit card statement</p>
+        <label>Name on Account<input type="text" data-sc-name="data-sc-name"></label><label>Company Name<input type="text"></label>
+        <label>
+          Country
+          <select>
+            <option>US</option>
+          </select>
+        </label>
+        <label>Address<input type="text" data-sc-billing-address1="data-sc-billing-address1"><input type="text" data-sc-billing-address2="data-sc-billing-address2"></label><label>Town/City<input type="text" data-sc-billing-city="data-sc-billing-city"></label>
+        <label>
+          State/Province
+          <select>
+            <option>CA</option>
+          </select>
+        </label>
+        <label>Zip/Postal Code<input type="text" data-sc-billing-zip="data-sc-billing-zip"></label><label>Phone Number<input type="text"></label><label>Email<input type="text"></label>
+      </section>
+      <section class="shipping">
+        <h2>Shipping Address<label>Address</label><input type="text" data-sc-shipping-address1="data-sc-shipping-address1"><input type="text" data-sc-shipping-address2="data-sc-shipping-address2"></h2>
+        <label>Town/City<input type="text" data-sc-shipping-city="data-sc-shipping-city"></label>
+        <label>
+          State/Province
+          <select>
+            <option>CA</option>
+          </select>
+        </label>
+        <label>Zip/Postal Code<input type="text" data-sc-shipping-zip="data-sc-shipping-zip"></label>
+      </section>
+      <section class="payment-method">
+        <label>Credit Card Number<input type="text" data-sc-cc-number="data-sc-cc-number"></label>
+        <label>
+          Expiration
+          <div class="row">
+            <select class="small-6">
+              <option></option>
+            </select>
+            <select class="small-6">
+              <option></option>
+            </select>
+          </div>
+        </label>
+      </section>
+      <section class="summary">
+        <h2>Order Summary</h2>
+        <div class="row">
+          <div class="small-8 columns left">Items</div>
+          <div class="small-4 columns right">$12.00</div>
+        </div>
+      </section>
+      <button class="submit alert">Submit my Order</button>
+    </div>
+    <script>if ('' != 'production') {
+      window.SC = window.SC || {};
+      SC.cdn = '//' + window.location.hostname + (window.location.port ? (':' + window.location.port) : '');
+      SC.liveSite = '//' + window.location.hostname + (window.location.port ? (':' + window.location.port) : '');
+      }
+    </script><script type="text/javascript" src="/js/plugin/embed.js"></script>
+  </body>
+  <style id="igor_ext_nofollow">a[rel~='nofollow']{outline:.14em dotted red !important;outline-offset:.2em;}a[rel~='nofollow'] > img{outline:thin dotted red !important;outline-offset:.2em;}</style>
+</html>
