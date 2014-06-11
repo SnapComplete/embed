@@ -51,10 +51,12 @@ SnapComplete service integration.
   ```
     <input name="zipcode" type="text" data-sc-shipping-zip>
   ```
+
 ## Insert the following script tag into your page.
 ```
   <script type='text/javascript' src='//www.snapcomplete.com/js/plugin/embed.js'></script>
 ```
+
 ## Initialize
 ```
   SC.init({
@@ -64,14 +66,19 @@ SnapComplete service integration.
     ...
   });
 ```
+
 ### Options
+
 #### showImmediately: 
 * value: [true/false] 
 * description: display dialog immediately. If set to false, calling SC.show()
   will display the dialog.
+
 #### autoFill:
 * value: [true/false]
 * description: auto fill form inputs with corresponding attributes
-#### callback: function(data)
+
+### callback: function(data)
+
 ## Example
 * [Demo App](http://snapcomplete.github.io/embed)
