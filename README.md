@@ -63,7 +63,7 @@ SnapComplete service integration.
     showImmediately: true,
     autoFill: true
   }, function(data) {
-    ...
+    // callback
   });
 ```
 
@@ -78,7 +78,5 @@ SnapComplete service integration.
 * value: [true/false]
 * description: auto fill form inputs with corresponding attributes
 
-## callback: function(data)
-
-## Example
-* [Demo App](http://snapcomplete.github.io/embed)
+## Demo App
+* [Here](http://snapcomplete.github.io/embed)
