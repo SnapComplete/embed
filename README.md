@@ -11,6 +11,14 @@ SnapComplete service integration.
   ```
     <input name="cc-number" type="text" data-sc-cc-number>
   ```
+* data-sc-cc-exp-month: credit card expiration month
+  ```
+    <input name="cc-exp-month" type="text" data-sc-cc-exp-month>
+  ```
+* data-sc-cc-exp-year: credit card expiration year
+  ```
+    <input name="cc-exp-year" type="text" data-sc-cc-exp-year>
+  ```
 * data-sc-billing-address1: street address first line 
   ```
     <input name="street" type="text" data-sc-address1>
