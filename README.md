@@ -1,7 +1,7 @@
 SnapComplete service integration.
 =====
 
-## Add data attributes to your input fields.
+## Add data attributes
 
 * data-sc-name: cardholder's name
   ```
@@ -52,7 +52,7 @@ SnapComplete service integration.
     <input name="zipcode" type="text" data-sc-shipping-zip>
   ```
 
-## Insert the following script tag into your page.
+## Insert script tag
 ```
   <script type='text/javascript' src='//www.snapcomplete.com/js/plugin/embed.js'></script>
 ```
@@ -69,12 +69,12 @@ SnapComplete service integration.
 
 ## Options
 
-### showImmediately: 
-* value: [true/false] 
+### showImmediately
+* value: [true/false]
 * description: display dialog immediately. If set to false, calling SC.show()
   will display the dialog.
 
-### autoFill:
+### autoFill
 * value: [true/false]
 * description: auto fill form inputs with corresponding attributes
 
