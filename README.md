@@ -21,11 +21,11 @@ SnapComplete service integration.
   ```
 * data-sc-billing-address1: street address first line 
   ```
-    <input name="street" type="text" data-sc-address1>
+    <input name="street" type="text" data-sc-billing-address1>
   ```
 * data-sc-billing-address2: street address second line
   ```
-    <input name="street" type="text" data-sc-address2>
+    <input name="street" type="text" data-sc-billing-address2>
   ```
 * data-sc-billing-city: city field
   ```
@@ -41,11 +41,11 @@ SnapComplete service integration.
   ```
 * data-sc-shipping-address1: street address first line 
   ```
-    <input name="street" type="text" data-sc-address1>
+    <input name="street" type="text" data-sc-shipping-address1>
   ```
 * data-sc-shipping-address2: street address second line
   ```
-    <input name="street" type="text" data-sc-address2>
+    <input name="street" type="text" data-sc-shipping-address2>
   ```
 * data-sc-shipping-city: city field
   ```
