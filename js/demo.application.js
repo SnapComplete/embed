@@ -19,5 +19,9 @@
       }
       $('<li class="cart-item">').text($('.product-info h4', e.delegateTarget).text()).appendTo($('.cart-items'));
     });
+
+    $('button.submit').on('click', function(e) {
+      $('#checkout').hide();
+    });
   });
 })();
