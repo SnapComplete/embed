@@ -1,5 +1,6 @@
 (function() {
   $(function () {
+
     $('.proceed').on('click', function(e) {
       $('#checkout').show();
       SC.init({
@@ -23,5 +24,7 @@
     $('button.submit').on('click', function(e) {
       $('#checkout').hide();
     });
+
+    $('a.product-add').first().click();
   });
 })();
