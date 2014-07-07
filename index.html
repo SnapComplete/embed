@@ -1,219 +1,53 @@
 <html>
   <head>
     <title>SnapComplete demo</title>
-    <link href="css/foundation.css" rel="stylesheet">
+    <link href="css/ratchet.css" rel="stylesheet">
     <link href="css/demo.application.css" rel="stylesheet">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script><script src="js/demo.application.js?v=1402443344169" type="text/javascript"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="js/demo.application.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
   </head>
   <body>
-    <div class="row header">
-      <h1>Demo Store</h1>
-    </div>
-    <div class="row product">
-      <div class="large-4 medium-4 small-4 columns product-image"><img src="http://www.staples-3p.com/s7/is/image/Staples/s0427839_sc7?$splssku$"></div>
-      <div class="large-8 medium-8 small-8 columns product-info">
-        <h4>Staples Copy Paper, 8 1/2" x 11", Case</h4>
-        <a class="button tiny alert round product-add">Add to cart</a>
-      </div>
-    </div>
-    <div class="row product">
-      <div class="large-4 medium-4 small-4 columns product-image"><img src="http://www.staples-3p.com/s7/is/image/Staples/s0437160_sc7?$splssku$"></div>
-      <div class="large-8 medium-8 small-8 columns product-info">
-        <h4>HP 950XL Black Ink Cartridge (CN045AN), High Yield</h4>
-        <a class="button tiny alert round product-add">Add to cart</a>
-      </div>
-    </div>
-    <div class="row product">
-      <div class="large-4 medium-4 small-4 columns product-image"><img src="http://www.staples-3p.com/s7/is/image/Staples/s0387201_sc7?$splssku$"></div>
-      <div class="large-8 medium-8 small-8 columns product-info">
-        <h4>Nestle® Pure Life® Bottled Purified Water</h4>
-        <a class="button tiny alert round product-add">Add to cart</a>
-      </div>
-    </div>
-    <div class="row product">
-      <div class="large-4 medium-4 small-4 columns product-image"><img src="http://www.staples-3p.com/s7/is/image/Staples/s0327604_sc7?$splssku$"></div>
-      <div class="large-8 medium-8 small-8 columns product-info">
-        <h4>Logitech MK320 Cordless Desktop</h4>
-        <a class="button tiny alert round product-add">Add to cart</a>
-      </div>
-    </div>
-    <div class="row cart close">
-      <ul class="large-12 medium-12 small-12 columns cart-items"></ul>
-      <a class="button large-12 medium-12 small-12 columns proceed">Proceed to Check Out</a>
-    </div>
-    <div id="checkout" class="small-12 columns">
-      <section class="billing">
-        <h2>Billing Address</h2>
-        <p>Please enter your billing information as shown on your credit card statement</p>
-        <label>Name on Account<input type="text" data-sc-name="data-sc-name"></label><label>Company Name<input type="text"></label>
-        <label>
-          Country
-          <select>
-            <option>US</option>
-          </select>
-        </label>
-        <label>Address<input type="text" data-sc-billing-address1="data-sc-billing-address1"><input type="text" data-sc-billing-address2="data-sc-billing-address2"></label><label>Town/City<input type="text" data-sc-billing-city="data-sc-billing-city"></label>
-        <label>
-          State/Province
-          <select data-sc-billing-state="data-sc-billing-state">
-            <option value="AL">Alabama</option>
-            <option value="AK">Alaska</option>
-            <option value="AZ">Arizona</option>
-            <option value="AR">Arkansas</option>
-            <option value="CA">California</option>
-            <option value="CO">Colorado</option>
-            <option value="CT">Connecticut</option>
-            <option value="DE">Delaware</option>
-            <option value="DC">District Of Columbia</option>
-            <option value="FL">Florida</option>
-            <option value="GA">Georgia</option>
-            <option value="HI">Hawaii</option>
-            <option value="ID">Idaho</option>
-            <option value="IL">Illinois</option>
-            <option value="IN">Indiana</option>
-            <option value="IA">Iowa</option>
-            <option value="KS">Kansas</option>
-            <option value="KY">Kentucky</option>
-            <option value="LA">Louisiana</option>
-            <option value="ME">Maine</option>
-            <option value="MD">Maryland</option>
-            <option value="MA">Massachusetts</option>
-            <option value="MI">Michigan</option>
-            <option value="MN">Minnesota</option>
-            <option value="MS">Mississippi</option>
-            <option value="MO">Missouri</option>
-            <option value="MT">Montana</option>
-            <option value="NE">Nebraska</option>
-            <option value="NV">Nevada</option>
-            <option value="NH">New Hampshire</option>
-            <option value="NJ">New Jersey</option>
-            <option value="NM">New Mexico</option>
-            <option value="NY">New York</option>
-            <option value="NC">North Carolina</option>
-            <option value="ND">North Dakota</option>
-            <option value="OH">Ohio</option>
-            <option value="OK">Oklahoma</option>
-            <option value="OR">Oregon</option>
-            <option value="PA">Pennsylvania</option>
-            <option value="RI">Rhode Island</option>
-            <option value="SC">South Carolina</option>
-            <option value="SD">South Dakota</option>
-            <option value="TN">Tennessee</option>
-            <option value="TX">Texas</option>
-            <option value="UT">Utah</option>
-            <option value="VT">Vermont</option>
-            <option value="VA">Virginia</option>
-            <option value="WA">Washington</option>
-            <option value="WV">West Virginia</option>
-            <option value="WI">Wisconsin</option>
-            <option value="WY">Wyoming</option>
-          </select>
-        </label>
-        <label>Zip/Postal Code<input type="text" data-sc-billing-zip="data-sc-billing-zip"></label><label>Phone Number<input type="text"></label><label>Email<input type="text"></label>
-      </section>
-      <section class="shipping">
-        <h2>Shipping Address</h2>
-        <label>Address</label><input type="text" data-sc-shipping-address1="data-sc-shipping-address1"><input type="text" data-sc-shipping-address2="data-sc-shipping-address2"></h2>
-        <label>Town/City<input type="text" data-sc-shipping-city="data-sc-shipping-city"></label>
-        <label>
-          State/Province
-          <select data-sc-shipping-state="data-sc-shipping-state">
-            <option value="AL">Alabama</option>
-            <option value="AK">Alaska</option>
-            <option value="AZ">Arizona</option>
-            <option value="AR">Arkansas</option>
-            <option value="CA">California</option>
-            <option value="CO">Colorado</option>
-            <option value="CT">Connecticut</option>
-            <option value="DE">Delaware</option>
-            <option value="DC">District Of Columbia</option>
-            <option value="FL">Florida</option>
-            <option value="GA">Georgia</option>
-            <option value="HI">Hawaii</option>
-            <option value="ID">Idaho</option>
-            <option value="IL">Illinois</option>
-            <option value="IN">Indiana</option>
-            <option value="IA">Iowa</option>
-            <option value="KS">Kansas</option>
-            <option value="KY">Kentucky</option>
-            <option value="LA">Louisiana</option>
-            <option value="ME">Maine</option>
-            <option value="MD">Maryland</option>
-            <option value="MA">Massachusetts</option>
-            <option value="MI">Michigan</option>
-            <option value="MN">Minnesota</option>
-            <option value="MS">Mississippi</option>
-            <option value="MO">Missouri</option>
-            <option value="MT">Montana</option>
-            <option value="NE">Nebraska</option>
-            <option value="NV">Nevada</option>
-            <option value="NH">New Hampshire</option>
-            <option value="NJ">New Jersey</option>
-            <option value="NM">New Mexico</option>
-            <option value="NY">New York</option>
-            <option value="NC">North Carolina</option>
-            <option value="ND">North Dakota</option>
-            <option value="OH">Ohio</option>
-            <option value="OK">Oklahoma</option>
-            <option value="OR">Oregon</option>
-            <option value="PA">Pennsylvania</option>
-            <option value="RI">Rhode Island</option>
-            <option value="SC">South Carolina</option>
-            <option value="SD">South Dakota</option>
-            <option value="TN">Tennessee</option>
-            <option value="TX">Texas</option>
-            <option value="UT">Utah</option>
-            <option value="VT">Vermont</option>
-            <option value="VA">Virginia</option>
-            <option value="WA">Washington</option>
-            <option value="WV">West Virginia</option>
-            <option value="WI">Wisconsin</option>
-            <option value="WY">Wyoming</option>
-          </select>
-        </label>
-        <label>Zip/Postal Code<input type="text" data-sc-shipping-zip="data-sc-shipping-zip"></label>
-      </section>
-      <section class="payment-method">
-        <h2>Payment</h2>
-        <label>Credit Card Number<input type="text" data-sc-cc-number="data-sc-cc-number"></label>
-        <label>
-          Expiration
-          <div class="row">
-            <select class="small-6" data-sc-cc-exp-month="data-sc-cc-exp-month">
-              <option value="01">January</option>
-              <option value="02">February</option>
-              <option value="03">March</option>
-              <option value="04">April</option>
-              <option value="05">May</option>
-              <option value="06">June</option>
-              <option value="07">July</option>
-              <option value="08">August</option>
-              <option value="09">September</option>
-              <option value="10">October</option>
-              <option value="11">November</option>
-              <option value="12">December</option>
-            </select>
-            <select class="small-6" data-sc-cc-exp-year>
-              <option value="14">2014</option>
-              <option value="15">2015</option>
-              <option value="16">2016</option>
-              <option value="17">2017</option>
-            </select>
+    <header class="bar bar-nav">
+      <h1 class="title">Demo Store</h1>
+      </header>
+    <div class="content">
+      <ul class="table-view products">
+        <li class="table-view-cell media">
+          <img class="media-object pull-left" src="http://www.staples-3p.com/s7/is/image/Staples/s0427839_sc7?$splssku$"></img>
+          <div class="media-body">
+            Staples Copy Paper, 8 1/2" x 11", Case
           </div>
-        </label>
-      </section>
-      <section class="summary">
-        <h2>Order Summary</h2>
-        <div class="row">
-          <div class="small-8 columns left">Items</div>
-          <div class="small-4 columns right">$12.00</div>
-        </div>
-      </section>
-      <hr>
-      <button class="submit expand alert">Submit my Order</button>
+          <button class="btn btn-negative product-add">Add</button>
+        </li>
+        <li class="table-view-cell media">
+          <img class="media-object pull-left" src="http://www.staples-3p.com/s7/is/image/Staples/s0437160_sc7?$splssku$"></img>
+          <div class="media-body">
+            HP 950XL Black Ink Cartridge (CN045AN), High Yield
+          </div>
+          <button class="btn btn-negative product-add">Add</button>
+        </li>
+        <li class="table-view-cell media">
+          <img class="media-object pull-left" src="http://www.staples-3p.com/s7/is/image/Staples/s0387201_sc7?$splssku$"</img>
+          <div class="media-body">
+            Nestle Pure Life Bottled Purified Water
+          </div>
+          <button class="btn btn-negative product-add">Add</button>
+        </li>
+        <li class="table-view-cell media">
+          <img class="media-object pull-left" src="http://www.staples-3p.com/s7/is/image/Staples/s0327604_sc7?$splssku$"</img>
+          <div class="media-body">
+            Logitech MK320 Cordless Desktop
+          </div>
+          <button class="btn btn-negative product-add">Add</button>
+        </li>
+      </ul>
+  
+      <div class="bar bar-standard bar-footer-secondary checkout">
+        <a class="btn btn-positive btn-block proceed" href="form.html" data-transition="slide-in" >Proceed to Check Out</a>
+      </div>
     </div>
+    <script type="text/javascript" src="js/ratchet.min.js"></script>
     <script type="text/javascript" src="//www.snapcomplete.com/js/plugin/embed.js"></script>
   </body>
-  <style id="igor_ext_nofollow">a[rel~='nofollow']{outline:.14em dotted red !important;outline-offset:.2em;}a[rel~='nofollow'] > img{outline:thin dotted red !important;outline-offset:.2em;}</style>
 </html>

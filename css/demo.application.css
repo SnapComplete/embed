@@ -1,28 +1,17 @@
-.header {
-  padding-left: 20px;
+img.media-object {
+  width: 42px;
 }
 
-.product {
-  border-top: 1px solid #ccc;
-}
-
-.cart {
-  position: fixed;
-  padding: 5px;
-  background-color: #ccc;
-  border-radius: 5px 5px 0 0;
-  bottom: -500px;
-}
-
-.cart-items {
-  font-size: 12px;
-}
-
-#checkout {
-  background: white;
+.checkout {
   display: none;
-  top: 58px;
-  left: 0;
-  position: absolute;
-  width: 100%;
 }
+
+.input-row label + select {
+  float: right;
+  width: 65%;
+  margin-bottom: 0;
+  border-bottom: 0;
+  margin-top: 5px;
+}
+
+
