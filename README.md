@@ -39,30 +39,10 @@ SnapComplete service integration.
   ```
     <input name="zipcode" type="text" data-sc-billing-zip>
   ```
-* data-sc-shipping-address1: street address first line 
-  ```
-    <input name="street" type="text" data-sc-shipping-address1>
-  ```
-* data-sc-shipping-address2: street address second line
-  ```
-    <input name="street" type="text" data-sc-shipping-address2>
-  ```
-* data-sc-shipping-city: city field
-  ```
-    <input name="city" type="text" data-sc-shipping-city>
-  ```
-* data-sc-shipping-state: state field
-  ```
-    <input name="state" type="text" data-sc-shipping-state>
-  ```
-* data-sc-shipping-zip: zip code field
-  ```
-    <input name="zipcode" type="text" data-sc-shipping-zip>
-  ```
 
 ## Insert script tag
 ```
-  <script type='text/javascript' src='//www.snapcomplete.com/js/plugin/embed.js'></script>
+  <script src="https://www.snapcomplete.com/js/plugin/embed.js"></script>
 ```
 
 ## Initialize
@@ -87,4 +67,4 @@ SnapComplete service integration.
 * description: auto fill form inputs with corresponding attributes
 
 ## Demo App
-* [Here](http://snapcomplete.github.io/embed)
+* [Here](http://demo.snapcomplete.com)
