@@ -159,7 +159,7 @@
 
   var isScrolling;
   var maxCacheLength = 20;
-  var cacheMapping   = sessionStorage;
+  var cacheMapping   = {};
   var domCache       = {};
   var transitionMap  = {
     slideIn  : 'slide-out',
