@@ -12,7 +12,6 @@
         showImmediately: true,
         autoFill: true
       }, function(data) {
-        console.log(data);
       });
     });
 
